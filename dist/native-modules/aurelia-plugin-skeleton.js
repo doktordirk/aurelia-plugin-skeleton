@@ -5,6 +5,6 @@ export function configure(aurelia, configCallback) {
   } else {}
 }
 
-export var Config = {
+export var config = {
   foo: { bar: 'baz' }
 };

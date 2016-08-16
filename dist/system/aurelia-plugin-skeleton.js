@@ -3,7 +3,7 @@
 System.register([], function (_export, _context) {
   "use strict";
 
-  var Config;
+  var config;
   function configure(aurelia, configCallback) {
     if (typeof configCallback === 'function') {
       configCallback();
@@ -15,11 +15,11 @@ System.register([], function (_export, _context) {
   return {
     setters: [],
     execute: function () {
-      _export('Config', Config = {
+      _export('config', config = {
         foo: { bar: 'baz' }
       });
 
-      _export('Config', Config);
+      _export('config', config);
     }
   };
 });

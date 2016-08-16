@@ -11,7 +11,7 @@ define(['exports'], function (exports) {
     } else {}
   }
 
-  var Config = exports.Config = {
+  var config = exports.config = {
     foo: { bar: 'baz' }
   };
 });

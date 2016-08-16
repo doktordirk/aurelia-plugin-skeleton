@@ -1,3 +1,3 @@
-export let Config = {
+export let config = {
   foo: {bar: 'baz'}
 }
